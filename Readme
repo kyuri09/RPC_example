@@ -1,0 +1,8 @@
+make:
+    make -f Makefile.rand
+
+
+execute ./rand_server in server1
+
+execute ./rand_client server1 arg1 arg2 in server2
+ex) ./rand_client server1 20 10
